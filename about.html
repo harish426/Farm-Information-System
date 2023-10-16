@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="farmguide.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Farm Guide</title>
+    <style>
+        #ra{
+            background-color: aqua;
+            margin-top: 0px;
+            padding: 10px;
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <!--button block-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--hesding-->
+                <a class="navbar-brand" href="#"><img src="images/icon.jpg" width="30px" height="30px" ></a>
+                <a class="navbar-brand" href="farmguide.php"><strong>Farm<br>&nbsp;Guide</strong></a>
+            </div>
+            <!--collapse Div-->
+            <div class="collapse navbar-collapse" id="nav1">
+
+                <ul class="nav navbar-nav">
+                    
+
+                    <li  ><a href="farmguide.php">Home</a></li>
+                    <li  ><a href="Tools.php">Tools</a></li>
+                    <li ><a href="fertilizers.php">Fertilizers</a></li>
+                    <li class="active"><a href="about.html">About us</a></li>
+                    <li ><a href="#contactus">Contact us</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--about info-->
+    <div id="ra">
+        <h1 style="size: 500px;text-align: center;">ADVANCED FARMING INFORMATON SYSTEM MANGEMENT</h1>
+        <hr color="blue">
+           
+            <ul style="list-style-type: disc;">
+                <h2><li>Web technology is uesd to develop this platform.</li></h2>
+                <h2><li>The main objective of our project is to provide some real informtons to the farmers to succeed in their fields. </li></h2>
+                <h2><li>The main objective of our project is to provide direct communication between farmers and buyers . </li></h2>
+                
+                <h2><li>In this  about module can provides informations about each modules in our project.</li></h2>
+                
+                <h2><li>Home menu provide information about whether,marketing details,help.</li></h2>
+                <ol style="padding-left: 170px; width: 100%;"type = "i">
+                    <h2><li>Whether can provides present climate details.</li></h2>
+                    <h2><li>whether can also predict after ten days climate details.</li></h2>
+                    <h2><li>Marketing details can provides present marketing rates of the crops.</li></h2>
+                    <h2><li>Help can provides gives suggestions to farmers.</li></h2>
+                </ol>
+                <h2><li>Tools module can provides the information about machinery of around the farmers.</li></h2>
+                <h2><li>Fertilizers module can provides suggestions for their crop for usage of fertilizers at whether conditions.</li></h2>
+                <ol style="padding-left: 170px; width: 100%;"type = "i">
+                    <h2><li>Fertilizers module can provides to increases the growth of his crops.</li></h2>
+                    <h2><li>Fertilizers module is used to detect diseases occur in his crops.</li></h2>
+                    <h2><li>Fertilizers module can also provides which type of fertilizers used to overcome diseases occur in his crops.</li></h2>
+                </ol>
+                </ul>
+
+                </div>
+
+
+
+    <!--footer-->
+
+<style>
+    #contactus{
+      background-color: black;
+    }
+    </style>
+    <div class="footer-clean" id="contactus">
+        <footer >
+            <div class="container" >
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="color: aliceblue;">Social Media</h3>
+                        <ul>
+                            <li><a href="#"><img src="images/fb.png"  width="10%" height="10%" ></a></li>
+                            <li><a href="#"><img src="images/twiter.png" style="display: inline;" width="10%" height="10%" ></a></li>
+                            <li><a href="#"><img src="images/insta.png" style="display: inline;" width="10%" height="10%"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="color: aliceblue;">Contacts</h3>
+                        <ul>
+                            <li><a href="#" style="color: aliceblue;">9764675867</a></li>
+                            <li><a href="#" style="color: aliceblue;">9865435678</a></li>
+                            <li><a href="#" style="color:aliceblue;">9498545678</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="color: aliceblue;">Email</h3>
+                        <ul>
+                            <li><a href="#" style="color: aliceblue;">famrmguid@gmail.com</a></li>
+                            <li><a href="#" style="color: aliceblue;">agriculturecorporate@gmail.com</a></li>
+                            <li><a href="#" style="color: aliceblue;">farmerwelfare@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <p class="copyright" style="color: aliceblue;">Formguide © </p>
+                    </div>
+                </div>
+                <hr></hr>
+                
+                <div class="copyright small-12 columns" >
+                
+                    <p style="color: aliceblue; text-align: center;"><span id="current_year" ></span> &copy; All rights reserved</p>
+                    </div>
+                    <script>
+                        document.getElementById("current_year").innerHTML = new Date().getFullYear();
+                    </script>
+            </div>
+    
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    background-color: rgb(160, 98, 18);
+}
+
+
+#sliderdiv{
+    align-items: center;
+    
+}
+
+#contact h1{
+    text-align: center;
+    background-color: rgb(206, 209, 27);
+}
+#contact1{
+    background-color: rgb(14, 14, 15);
+    width: 100%;
+    height: 300px;
+    text-align:center;
+    
+}
+.contact1{
+    display: inline-block;
+    margin: 50px;
+    margin-left: 100px;
+   
+    height: 200px;
+    text-align: center;
+}
+
+.cont{
+    display: inline-block;
+}
+.cont img{
+    
+    width: 60px;
+    height: 60px;
+}
+.cont img:hover{
+    zoom: 80%;
+}
+/*wheather*/
+.container-fluid {
+    height: 30rem;
+    width: 40%;
+    background: url(images/wheather2.gif);
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 16px;
+    border: 2px solid rgb(14, 43, 1);
+    color: rgb(10, 17, 10);
+    font-weight: bolder;
+  }
+.container-fluid .icon{
+    align-self: center;
+
+}
+/*capture photos*/
+#pictures{
+    align-content: center;
+    background: black;
+    background-color: black;
+    width: 100%;
+    height: 30%;
+}
+
+
+
+
+
+/*footer*/
+#contactus{
+  background-color: black;
+  
+}
+
+
+
+
+  
