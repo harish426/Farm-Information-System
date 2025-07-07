@@ -302,24 +302,6 @@ Start the application:
 
 
 
-API Endpoints
-
-
-
-The platform exposes the following API endpoints:
-
-
-
-
-
-
-
-/api/posts:
-
-
-
-
-
 
 GET: Retrieve all posts.
 
@@ -328,42 +310,7 @@ GET: Retrieve all posts.
 POST: Create a new post.
 
 
-
-/api/posts/:id:
-
-
-
-
-
-
-GET: Retrieve a specific post by ID.
-
-
-
-PUT: Update a specific post by ID.
-
-
-
-DELETE: Delete a specific post by ID.
-
-
-
-/api/comments:
-
-
-
-
-
-
-POST: Create a new comment.
-
-
-
 /api/products:
-
-
-
-
 
 
 GET: Retrieve all products.
